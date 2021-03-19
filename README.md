@@ -53,3 +53,26 @@ root
 ```
 ## demo项目：
 https://github.com/developerQiu/jack-cli.git
+
+## 如何使用：
+
+下载代码后，在项目目录下使用npm link，即可进行脚手架本地开发调试
+
+## 脚手架当前支持命令说明：
+
+```
+Usage: mc [options] [command]
+
+Options:
+  -V, --version          output the version number
+  -v,--version           查看版本号
+  -h, --help             display help for command
+
+Commands:
+  run                    开始
+  init [options] <name>  创建项目
+  download               下载已有项目
+  multiply               多选下载
+  help [command]         display help for command
+```
+

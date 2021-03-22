@@ -76,3 +76,14 @@ Commands:
   help [command]         display help for command
 ```
 
+## 如何发布一个npm包：（以npm为例）
+
+```
+  ### 第一步，首先选择源
+  npm config set registry https://registry.npmjs.org/
+  ### 第二步，登陆npm账户
+  npm adduser
+  ### 第三步，发布
+  npm publish
+```
+注意：每次发布都需要更新package.json里面的version

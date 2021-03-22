@@ -1,5 +1,5 @@
 {
-  "name": "mc-cli",
+  "name": "cli-template-demo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,9 +7,20 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "mc": "index.js"
+    "cli": "index.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/developerQiu/jack-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "template",
+    "sdk",
+    "js",
+    "nodejs"
+  ],
+  "author": "charlesqiu",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",

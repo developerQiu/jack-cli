@@ -61,7 +61,7 @@ https://github.com/developerQiu/jack-cli.git
 ## 脚手架当前支持命令说明：
 
 ```
-Usage: mc [options] [command]
+Usage: cli [options] [command]
 
 Options:
   -V, --version          output the version number

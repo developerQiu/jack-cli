@@ -42,7 +42,7 @@ function checkNodeVersion(wanted) {
 module.exports = function (wanted) {
   return new Promise(async (resolve) => {
     checkNodeVersion(wanted)
-    await checkPackageVersion('https://registry.npmjs.org/vuejs/latest')
+    await checkPackageVersion('https://registry.npmjs.org/cli-template-demo/latest')
     resolve();
   })
 }
